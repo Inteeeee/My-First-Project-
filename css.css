@@ -51,7 +51,7 @@ section{
     align-items: center;
     padding: 50px 20px;
     background: rgba(0, 0, 0, 0.7);
-    margin-top: 60px;
+    /* margin-top: 60px; */
     position: relative; /*ensures its above the background*/
     z-index: 2;  /*Ensures text is visible */
 }
@@ -62,7 +62,7 @@ h1{
 p{
     font-size: 1.2rem;
     margin-top: 10px;
-    min-width: 600px;
+    /* min-width: 600px; */
     animation: fadeInText 2.5s ease-in-out;
 }
 .btn{
@@ -147,4 +147,14 @@ p{
         transform: translateY(0)
     }
 
+}
+
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size:1.3rem
+    }
+    .btn{
+        font-size: 0.80rem
+    }
 }
